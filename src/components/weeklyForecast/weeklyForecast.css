@@ -1,0 +1,8 @@
+.weeklyForecast {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 0.5em;
+}

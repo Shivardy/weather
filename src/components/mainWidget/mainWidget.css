@@ -1,0 +1,73 @@
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: var(--white-color);
+  border-radius: 5px;
+  border-color: var(--light-grey);
+  transition: all 1s;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.1);
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+h1 {
+  color: var(--light-grey);
+  font-weight: 200;
+  text-align: left;
+  margin: 0;
+}
+h3 {
+  color: var(--light-grey);
+  font-weight: 200;
+  text-align: left;
+  margin: 0;
+}
+h4 {
+  color: var(--light-grey);
+  font-weight: 200;
+  margin: 0;
+}
+.header {
+  text-align: center;
+}
+
+.temp {
+  margin: 1em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.temp > img {
+  width: 4em;
+  height: 4em;
+  margin-right: 1em;
+}
+.temp div {
+  color: var(--main-black);
+  font-size: 4em;
+  margin: 0;
+}
+.temp sup {
+  font-size: 30px;
+}
+
+.moreinfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 0.5em;
+}
+
+.degreebutton {
+  color: var(--link-blue);
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

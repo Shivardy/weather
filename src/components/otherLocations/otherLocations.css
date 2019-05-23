@@ -1,0 +1,15 @@
+.lead {
+  color: var(--lead-red);
+  margin: 2em 0;
+  font-weight: 600;
+}
+
+.otherLocations {
+  text-align: center;
+  margin-top: 4em;
+}
+.addLocation {
+  cursor: pointer;
+  font-size: 3em;
+  margin: 0;
+}

@@ -1,0 +1,61 @@
+.subheading {
+  color: var(--light-grey);
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+}
+.headingSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.close {
+  color: var(--lead-red);
+  font-size: 4em;
+  cursor: pointer;
+}
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  width: 100%;
+
+  box-sizing: border-box;
+}
+.searchBox {
+  color: var(--main-black);
+  border-bottom: 1px solid var(--light-grey);
+  padding: 5px 1em;
+  font-size: 1em;
+  margin: 2em 0;
+}
+.listItem {
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--white-color);
+  border-radius: 5px;
+  border-color: var(--light-grey);
+  transition: all 1s;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.1);
+  animation-duration: 1s;
+  animation-name: fadeIn;
+}
+.listItem > p {
+  margin: 0.5em;
+}
+.addlocation {
+  transition: all 1s;
+  animation-duration: 1s;
+  animation-name: fadeIn;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

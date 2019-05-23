@@ -3,7 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "animated-scroll-to": "^1.2.2",
+    "axios": "^0.18.0",
+    "chart.js": "^2.8.0",
+    "chartjs-plugin-datalabels": "^0.6.0",
+    "font-awesome": "^4.7.0",
     "react": "^16.8.6",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
